@@ -9,28 +9,37 @@
 
     <!--шапка сайта-->
     <header>
+    <div class="header-container">
       <!--навигация-->
       <div class="navigation">
-          <a href="#" class="navigation-link">
-            информация
-          </a>
-          <a href="#" class="navigation-link">
-            фото и видео
-          </a>
+        <ul>
+          <li>
+            <a href="#" class="navigation-link">информация</a>
+          </li>
+          <li>
+            <a href="#" class="navigation-link">фото и видео</a>
+          </li>
+        </ul>
+      </div>
           <!--логотип-->
           <div class="logo">
             <img src="#" alt="логотип сайта" class="logo-image">
           </div>
-          <a href="#" class="navigation-link">
-            карта штата
-          </a>
-          <a href="#" class="navigation-link">
-            гостиницы
-          </a>
+      <div class="navigation">
+        <ul>
+          <li>
+            <a href="#" class="navigation-link">карта штата</a>
+          </li>
+          <li>
+            <a href="#" class="navigation-link">гостиницы</a>
+          </li>
+        </ul>
       </div>
+    </div>
     </header>
     <!--основное содержание сайта-->
     <main>
+    <div class="main-container">
       <!--картинка с пейзажем и заголовком-->
       <div class="main-header">
         <h1>
@@ -39,135 +48,158 @@
       </div>
 
       <!--описание преимуществ-->
-      <div class="features-block">
+      <div class="features-container">
         <div class="features-block-header">
           <h2>
             седона - небольшой городок в аризоне,
              заслуживающий большего
           </h2>
-          <span>
+          <p>
             рассмотрим 5 причин, по которым седона круче, чем гранд-каньон
-          </span>
+          </p>
         </div>
         <!--настоящий городок-->
-        <div class="features-block-feature-1">
-          <div class="features-block-feature-promo">
+        <div class="feature-item feature1">
+          <div class="feature1-promo">
             <h3>настоящий городок</h3>
-            <span class="features-block-feature-promo-number">
-              №1
-            </span>
-            <span>
+            <p class="promo-number">№1</p>
+            <p>
               седона - не аттракцион для туристов,
               там течет своя жизнь
-            </span>
+            </p>
           </div>
           <!--картинка с цветами и мотелем-->
-          <img class="features-block-feature-1-image">
+          <div class="feature1-picture">
+            <img src="#" alt="отель и цветочки" class="feature1-image">
+          </div>
+        </div>
+        <!--полоска с иконками домика, бургера и подарка-->
+        <div class="feature2-4-container">
           <!--домик-->
-          <div class="features-block-feature-1-item">
-            <img src="#" alt="домик" class="features-block-feature-1-house-icon">
+          <div class="feature-item feature2">
+            <div class="feature2-img-container">
+              <img src="#" alt="домик" class="house">
+            </div>
             <h3>жильё</h3>
-            <span>
+            <p>
               рекомендуем пожить в настоящем
               мотеле, всё как в кино!
-            </span>
+            </p>
           </div>
           <!--бургер-->
-          <div class="features-block-feature-1-item">
-            <img src="#" alt="домик" class="features-block-feature-1-burger-icon">
+          <div class="feature-item feature3">
+            <div class="feature2-img-container">
+              <img src="#" alt="домик" class="burger">
+            </div>
             <h3>еда</h3>
-            <span>
+            <p>
               всегда заказывайте фирменный бургер.
               вы не разочаруетесь!
-            </span>
+            </p>
           </div>
           <!--сувениры-->
-          <div class="features-block-feature-1-item">
-            <img src="#" alt="сувениры" class="features-block-feature-1-souvenirs-icon">
+          <div class="feature-item feature4">
+            <div class="feature2-img-container">
+              <img src="#" alt="сувениры" class="souvenir">
+            </div>
             <h3>сувениры</h3>
-            <span>
+            <p>
               не только китайского, но и местного
               производства
-            </span>
+            </p>
           </div>
         </div>
+
         <!--мост дьявола-->
-        <div class="features-block-feature-2-item">
-          <img src="#" alt="мост">
+        <div class="feature-item feature5">
+          <div class="feature1-picture">
+            <img src="#" alt="мост" class="bridge-image">
+          </div>
           <!--промо-текст-->
-          <div class="features-block-feature-promo">
+          <div class="feature1-promo">
             <h3>там есть мост дьявола</h3>
-            <span class="features-block-feature-promo-number">
-              №2
-            </span>
-            <span>
+            <p class="promo-number">№2</p>
+            <p>
               Да! По нему можно пройдти, если, конечно
               вы осмелитесь
-            </span>
+            </p>
           </div>
         </div>
+        <div class="feature-gray-container">
         <!--3-e преимущество-->
-        <div class="features-block-feature-3">
-          <h3>небольшая площадь</h3>
-          <span class="features-block-feature-3-number">
-            №3
-          </span>
-          <span>
+          <div class="feature-gray feature6">
+            <h3>небольшая площадь</h3>
+            <p class="promo-number">№3</p>
+            <p>
             все достопримечательности
             находятся очень близко
-          </span>
-        </div>
+            </p>
+          </div>
         <!--4-e преимущество-->
-        <div class="features-block-feature-3">
-          <h3>красивая дорога</h3>
-          <span class="features-block-feature-3-number">
+          <div class="feature-gray feature7">
+            <h3>красивая дорога</h3>
+            <p class="promo-number">
             №4
-          </span>
-          <span>
+            </p>
+            <p>
             ехать в седону из лас-вегаса совсем
             не скучно!
-          </span>
-        </div>
+            </p>
+          </div>
         <!--5-e преимущество-->
-        <div class="features-block-feature-3">
+          <div class="feature-gray feature8">
           <h3>мало туристов</h3>
-          <span class="features-block-feature-3-number">
+          <p class="promo-number">
             №5
-          </span>
-          <span>
+          </p>
+          <p>
             большинство едет в гранд-каньон и
             толпится там
-          </span>
+          </p>
+        </div>
         </div>
 
       </div>
       <!--подбор гостиниц-->
       <div class="hostle">
         <h2>Заинтересовались?</h2>
-        <span>
+        <p>
           укажите предполагаемые даты поездки,
           и мы покажем вам лучшие предложения гостиниц в седоне
-        </span>
-        <img src="#" alt="карта" class="map">
+        </p>
+        <div class="map-container">
+          <img src="#" alt="карта" class="map">
+        </div>
         <form class="hostle-search-form" action="#" method="post">
           Поиск гостиницы в седоне
           <!--не знаю пока как сделать-->
         </form>
 
       </div>
+    </div>
     </main>
     <!--подвал-->
     <footer>
-      <span class="visitsedona">#visitsedona</span>
+      <div class="slogan">
+        <p>#visitsedona</p>
+      </div>
       <!--социальные кнопки-->
       <div class="social">
-        <a href="#" class="social-button twitter"></a>
-        <a href="#" class="social-button facebook"></a>
-        <a href="#" class="social-button youtube"></a>
+        <ul>
+          <li>
+            <a href="#" class="social-button twitter"></a>
+          </li>
+          <li>
+            <a href="#" class="social-button facebook"></a>
+          </li>
+          <li>
+            <a href="#" class="social-button youtube"></a>
+          </li>
+        </ul>
       </div>
       <!--разработчики-->
-      <div class="developers">
-        website by
+      <div class="copyright">
+        <p>website by</p>
         <img src="#" alt="academy logo" class="academy-logo">
       </div>
     </footer>
