@@ -216,6 +216,7 @@ main .container{
 }
 /*карта и форма*/
 .hostle{
+  position: relative;
   width: 1200px;
   min-height: 766px;
   outline: 1px solid black;
@@ -232,4 +233,86 @@ main .container{
   width: 440px;
   margin-left: auto;
   margin-right: auto;
+}
+.map-container{
+  display: inline-block;
+  min-height:477px;
+  margin-bottom: -5px;
+  outline: 1px solid black;
+}
+.map-container img{
+  min-height:477px;
+}
+.hostle-search-form{
+  position: absolute;
+  z-index: 100;
+  width: 576px;
+  min-height: 484px;
+  outline: 1px solid black;
+  left: 312px;
+  bottom: 80px;
+}
+.form-header{
+  display: inline-block;
+  outline: 1px solid black;
+  height: 86px;
+  background-color: #766357;
+}
+
+
+/*подвал*/
+footer .container{
+  outline: 1px solid black;
+  width: 1200px;
+  min-height: 120px;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: baseline;;
+}
+.slogan{
+  display: inline-block;
+  margin-left: 130px;
+  margin-top: 52px;
+}
+.social{
+  margin-left: 257px;
+}
+.social ul{
+  list-style: none;
+}
+.social ul li{
+  display: inline;
+}
+.social ul a{
+  display: inline-block;
+  background-color: #81b3d2;
+  height: 48px;
+  width: 46px;
+  margin-right: 5px;
+  margin-top: 37px;
+}
+.copyright{
+  width: 210px;
+  outline: 1px solid black;
+  margin-left: 230px;
+
+
+}
+.copyright p{
+  position: relative;
+  top: -10px;
+  display: inline-block;
+  margin-top: 5px;
+  font-size: 14px;
+  width: 90px;
+  outline: 1px solid black;
+
+}
+.copyright a{
+  margin-top: 15px;
+  display: inline-block;
+  width: 115px;
+  outline: 1px solid black;
+
+
 }
