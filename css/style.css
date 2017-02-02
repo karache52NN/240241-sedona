@@ -1,9 +1,18 @@
 body{
+  margin: 0;
+  padding: 0;
   font-family:"PT Sans", "Arial", sans-serif;
   font-size: 16px;
   color: #333333;
+  text-transform: uppercase;
   line-height: 1.2;
   font-weight: normal;
+  background-color: #f2f2f2;
+  outline: 1px solid black;
+
+  width: 1280px;
+  min-height: 2762px;
+
 
 }
 h1{
@@ -19,4 +28,208 @@ h2{
   line-height: 1.2;
   color: #ffffff;
   font-weight: bold;
+}
+
+
+/*сетка header*/
+header .container{
+  position: relative;
+  width: 1200px;
+  outline: 1px dashed black;
+  margin-left: auto;
+  margin-right: auto;
+  vertical-align: top;
+}
+.container div{
+  display: inline-block;
+}
+.container .logo{
+  position: absolute;
+  z-index: 100;
+  left: 530px;
+  width: 138px;
+  outline: 1px dashed black;
+  text-align: center;
+}
+.container .logo img{
+  display: inline-block;
+}
+
+.navigation ul{
+  width: 530px;
+  margin: 0;
+  padding: 0;
+  list-style: none;
+
+  outline: 1px dotted black;
+}
+.navigation ul li{
+  display: inline;
+}
+.navigation a{
+  display: inline-block;
+  padding-top: 15px;
+  width: 239px;
+  min-height: 40px;
+  text-align: center;
+}
+.navigation:last-child{
+  margin-left: 135px;
+}
+/*сетка main*/
+
+main .container{
+  width: 1200px;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.main-header{
+  min-height: 510px;
+  width: 1200px;
+  outline: 1px solid black;
+  text-align: center;
+  box-sizing: border-box;
+  padding-top: 115px;
+}
+.features-block-header{
+  min-height: 217px;
+  width: 1200px;
+  outline: 1px solid black;
+  text-align: center;
+
+
+}
+.features-block-header h2{
+  display: inline-block;
+  margin-top: 66px;
+  width: 635px;
+
+}
+.features-block-header p{
+  display: inline-block;
+  font-size: 16px;
+  font-family: "PT Sans", "Arial", sans-serif;
+  width: 1200px;
+}
+/*1 преимущество*/
+.feature1{
+  position: relative;
+  font-size: 0px;
+}
+.feature1-promo{
+  position: absolute;
+  font-size: 16px;
+  display: inline-block;
+  width: 400px;
+  min-height: 256px;
+  outline: 1px solid black;
+  text-align: center;
+}
+.feature1-picture{
+  margin-left: 400px;
+}
+/*домик*/
+.feature2-4-container{
+  position: relative;
+  font-size: 0px;
+  width: 1200px;
+  min-height: 330px;
+  outline: 1px solid black;
+  vertical-align: bottom;
+}
+.feature2{
+  position: absolute;
+  font-size: 16px;
+  width: 399px;
+  min-height: 330px;
+  outline: 1px solid black;
+  text-align: center;
+
+}
+.feature3{
+  position: absolute;
+  left: 400px;
+  font-size: 16px;
+  width: 399px;
+  min-height: 330px;
+  outline: 1px solid black;
+  text-align: center;
+}
+.feature4{
+  position: absolute;
+  left: 800px;
+  font-size: 16px;
+  width: 399px;
+  min-height: 330px;
+  outline: 1px solid black;
+  text-align: center;
+}
+/*мост дьявола*/
+.feature5{
+  position: relative;
+  font-size: 0px;
+  width: 1200px;
+  min-height: 256px;
+  outline: 1px solid black;
+  vertical-align: bottom;
+}
+.feature5 .feature1-promo{
+  position: absolute;
+  left: 0px;
+}
+/*преимущества 3-5*/
+.feature-gray-container{
+  position: relative;
+  font-size: 0px;
+  width: 1200px;
+  min-height: 256px;
+  outline: 1px solid black;
+  vertical-align: bottom;
+}
+.feature6{
+  position: absolute;
+  left: 0px;
+  font-size: 16px;
+  width: 399px;
+  min-height: 256px;
+  outline: 1px solid black;
+  text-align: center;
+}
+.feature7{
+  position: absolute;
+  left: 400px;
+  font-size: 16px;
+  width: 399px;
+  min-height: 256px;
+  outline: 1px solid black;
+  text-align: center;
+}
+.feature8{
+  position: absolute;
+  left: 800px;
+  font-size: 16px;
+  width: 399px;
+  min-height: 256px;
+  outline: 1px solid black;
+  text-align: center;
+}
+/*карта и форма*/
+.hostle{
+  width: 1200px;
+  min-height: 766px;
+  outline: 1px solid black;
+  text-align: center;
+  box-sizing: content-box;
+}
+.hostle h2{
+
+  margin-top: 60px;
+  font-size: 26px;
+}
+.hostle p{
+  font-size: 10px;
+  width: 440px;
+  margin-left: auto;
+  margin-right: auto;
 }
