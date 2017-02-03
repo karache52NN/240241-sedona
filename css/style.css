@@ -267,52 +267,165 @@ footer .container{
   min-height: 120px;
   margin-left: auto;
   margin-right: auto;
-  vertical-align: baseline;;
+
 }
 .slogan{
   display: inline-block;
   margin-left: 130px;
   margin-top: 52px;
+  outline: 1px solid black;
 }
 .social{
   margin-left: 257px;
+  vertical-align: middle;
+  outline: 1px solid black;
+  text-align: center;
 }
 .social ul{
   list-style: none;
 }
 .social ul li{
-  display: inline;
+  display: inline-block;
 }
-.social ul a{
+.social a{
   display: inline-block;
   background-color: #81b3d2;
   height: 48px;
   width: 46px;
-  margin-right: 5px;
-  margin-top: 37px;
+  vertical-align: middle;
+  margin: 5px;
 }
 .copyright{
   width: 210px;
   outline: 1px solid black;
   margin-left: 230px;
+  vertical-align: middle;
+
 
 
 }
 .copyright p{
-  position: relative;
-  top: -10px;
   display: inline-block;
-  margin-top: 5px;
+  vertical-align: middle;
   font-size: 14px;
   width: 90px;
   outline: 1px solid black;
 
 }
 .copyright a{
-  margin-top: 15px;
   display: inline-block;
+  vertical-align: middle;
   width: 115px;
   outline: 1px solid black;
+}
 
 
+
+/*стили catalog*/
+
+/*поисковая форма*/
+.form-box{
+  outline: 1px solid black;
+  min-height: 220px;
+  width: 1200px;
+  display: inline-block;
+}
+.hotel-search{
+  outline: 1px solid black;
+  height: 220px;
+  display: flex;
+  justify-content:space-between;
+}
+.infrastructure{
+  outline: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  width: 313px;
+}
+
+.infrastructure label{
+  outline: 1px solid black;
+  display: inline-block;
+  width: 313px;
+  height: 55px;
+}
+.housetype{
+  outline: 1px solid black;
+  display: inline-block;
+  width: 313px;
+  margin-left: -170px;
+}
+.crawler{
+  outline: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  width: 400px;
+  height: 220px;
+}
+.crawler label{
+  outline: 1px solid black;
+  display: flex;
+  height: 110px;
+  width: 400px;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+.crawler label input{
+  display: inline-block;
+  vertical-align: middle;
+}
+/*результаты поиска*/
+
+.results{
+  outline: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 540px;
+}
+.results-header{
+  outline: 1px solid black;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-content: center;
+  height: 86px;
+  width: 1200px;
+}
+.results-header div{
+  outline: 1px solid black;
+  align-self: flex-end;
+}
+.result-container{
+  outline: 1px solid black;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 453px;
+  width: 1200px;
+}
+.results-item{
+  outline: 1px solid black;
+  display: inline-block;
+  height: 151px;
+  width: 1200px;
+}
+.results-item div{
+  outline: 1px solid black;
+  display: inline-block;
+}
+.results-item img{
+  display: inline-block;
+  height: 92px;
+  width: 135px;
+  margin-left: 53px;
+  margin-top: 31px;
+}
+.results-item-resume{
+  outline: 1px solid black;
+  display: inline-block;
+  width: 260px;
+  margin-top: -40px;
 }

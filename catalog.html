@@ -44,7 +44,10 @@
     <!--коробка с формой-->
     <div class="form-box">
     <form class="hotel-search" action="index.html" method="post">
-      Инфраструктура:
+      <div class="infrastructure">
+      <label class="infrastructure-head">
+        Инфраструктура:
+      </label>
       <label for="hotelsearchcheckbox">
         <input type="checkbox" name="basin" value="basin" class="hotel-search-checkbox" id="hotelsearchcheckbox">
         бассейн
@@ -57,7 +60,10 @@
         <input type="checkbox" name="wi-fi" value="wi-fi" class="hotel-search-checkbox" id="hotelsearchcheckbox">
         wi-fi
       </label>
-      Тип жилья:
+    </div>
+
+    <div class="infrastructure housetype">
+      <label>Тип жилья:</label>
       <label for="hotelsearchcheckbox">
         <input type="checkbox" name="hotel" value="hotel" class="hotel-search-checkbox" id="hotelsearchcheckbox">
         гостиница
@@ -70,22 +76,27 @@
         <input type="checkbox" name="apartaments" value="apartaments" class="hotel-search-checkbox" id="hotelsearchcheckbox">
         апартаменты
       </label>
+    </div>
+    <!--не знаю как сверстать-->
+    <div class="crawler">
       <label for="price-crawler">
-        Стоимость в сутки(р):
-        <!--не знаю как сверстать-->
+      Стоимость в сутки(р):
       </label>
+      <label>
       <input type="submit" name="show" value="показать">
+      </label>
+    </div>
     </form>
   </div>
   <!--результаты-->
   <div class="results">
     <div class="results-header">
-      <span class="founded">
-        найдено:3
-      </span>
-      <span class="sorted">
-        сортировка:
-      </span>
+      <div class="founded">
+        <p>найдено:3</p>
+      </div>
+      <div class="sorted">
+        <p>сортировка:</p>
+      </div>
       <div class="criteries">
         <a href="#" class="sorted-link">по цене</a>
         <a href="#" class="sorted-link">по типу</a>
