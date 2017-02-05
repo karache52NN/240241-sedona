@@ -396,7 +396,52 @@ footer .container{
 }
 .results-header div{
   outline: 1px solid black;
-  align-self: flex-end;
+
+}
+.founded{
+  font-size: 21px;
+  text-transform: uppercase;
+  margin-left: 53px;
+  margin-top: 10px;
+}
+.sorted{
+  margin-left: 51px;
+}
+.criteries{
+  width: 288px;
+  font-size: 0px;
+}
+.criteries a:nth-child(1){
+  font-size: 14px;
+  display: inline-block;
+  outline: 1px solid black;
+  width: 88px;
+  text-align: right;
+}
+.criteries a:nth-child(2){
+  font-size: 14px;
+  display: inline-block;
+  outline: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
+.criteries a:nth-child(3){
+  font-size: 14px;
+  display: inline-block;
+  outline: 1px solid black;
+  width: 100px;
+  text-align: center;
+}
+.triangles{
+  outline: 1px solid black;
+  margin-left: 467px;
+  font-size: 0px;
+}
+.triangles a{
+  outline: 1px solid black;
+  display: inline-block;
+  width: 18px;
+  height: 18px;
 }
 .result-container{
   outline: 1px solid black;
@@ -407,10 +452,13 @@ footer .container{
   width: 1200px;
 }
 .results-item{
+  position: relative;
   outline: 1px solid black;
-  display: inline-block;
+  display: flex;
+  justify-content: space-around;
   height: 151px;
   width: 1200px;
+
 }
 .results-item div{
   outline: 1px solid black;
@@ -424,8 +472,60 @@ footer .container{
   margin-top: 31px;
 }
 .results-item-resume{
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  outline: 1px solid black;
+  width: 293px;
+  margin-left: 24px;
+  padding-top:10px;
+}
+.results-item-header{
   outline: 1px solid black;
   display: inline-block;
-  width: 260px;
-  margin-top: -40px;
+  width: 100%;
+}
+
+.results-item-price{
+  margin-left: 40px;
+}
+.results-item-buttons{
+  margin-top: 20px;
+  width: 100%;
+  font-size: 0px;
+}
+.viewmore{
+  outline: 1px solid black;
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: middle;
+  padding: 8px 20px;
+  margin-right: 6px;
+}
+.armore{
+  outline: 1px solid black;
+  display: inline-block;
+  font-size: 14px;
+  vertical-align: middle;
+  padding: 8px 20px;
+}
+.results-item-marks{
+  position: relative;
+  top: -11px;
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  margin-left: 522px;
+  width: 112px;
+  text-align: right;
+}
+.results-item-stars{
+  margin-top: 31px;
+}
+.results-item-raiting{
+  margin-top: 47px;
+
 }
