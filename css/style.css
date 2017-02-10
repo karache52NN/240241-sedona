@@ -333,20 +333,27 @@ main .container{
 }
 /*карта и форма*/
 .hostle{
+  padding-top: 0px;
   position: relative;
   width: 1200px;
   min-height: 766px;
-  outline: 1px solid black;
+
   text-align: center;
   box-sizing: content-box;
+  background-color: #ffffff;
+}
+.hostle-intro{
+  padding-top:58px;
+  min-height: 291px;
+  box-sizing: border-box;
 }
 .hostle h2{
-
-  margin-top: 60px;
-  font-size: 26px;
+  color: black;
+  font-size: 24px;
+  margin-bottom: 32px;
 }
 .hostle p{
-  font-size: 10px;
+  font-size: 12px;
   width: 440px;
   margin-left: auto;
   margin-right: auto;
@@ -355,47 +362,154 @@ main .container{
   display: inline-block;
   min-height:477px;
   margin-bottom: -5px;
-  outline: 1px solid black;
+
 }
 .map-container img{
   min-height:477px;
 }
 .hostle-search-form{
   position: absolute;
+  background-color: white;
   z-index: 100;
-  width: 576px;
+  width: 568px;
   min-height: 484px;
-  outline: 1px solid black;
+
   left: 312px;
-  bottom: 80px;
+  bottom: 180px;
+  text-align: left;
 }
 .form-header{
   display: inline-block;
-  outline: 1px solid black;
-  height: 86px;
+
+  width: 100%;
   background-color: #766357;
+  padding-top: 35px;
+  padding-bottom: 35px;
+  margin-bottom: 56px;
+  color: white;
+  font-size: 21px;
+  font-weight: bold;
+  text-align: center;
+}
+.in-date-label{
+
+  display: inline-block;
+  text-align: left;
+  width: 100%;
+  padding-left: 55px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+.in-date-label p{
+
+  display: inline-block;
+  width: 93px;
+  font-size: 11px;
+  font-weight: bold;
+
+}
+.in-date-label input{
+
+  display: inline-block;
+  width: 348px;
+  height: 38px;
+  background-color: #f2f2f2;
+}
+.count-label{
+  display: inline-block;
+
+  width: 230px;
+  font-size: 0px;
+  text-align: left;
+  margin-left: 55px;
+
+}
+.count-label:last-child{
+  margin-left: 25px;
+  width: 192px;
+}
+.count-label:last-child p{
+  width: 30px;
+}
+.count-label p{
+  display: inline-block;
+
+  width: 68px;
+  font-size: 11px;
+  font-weight: bold;
+  vertical-align: middle;
+  margin-right: 40px;
+}
+.count-label a{
+  display: inline-block;
+
+  width: 39px;
+  height: 39px;
+  font-size: 11px;
+  vertical-align: middle;
+  text-align: center;
+  box-sizing: border-box;
+  background-color: #f2f2f2;
+}
+.count-label a img{
+
+  display: inline-block;
+  margin-top: 18px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.count-label .plus img{
+  margin-top: 14px;
+}
+.count-label input{
+  display: inline-block;
+  outline: 1px solid black;
+  width: 39px;
+  height: 35px;
+  font-size: 11px;
+  vertical-align: middle;
+  text-align: center;
+  background-color: #f2f2f2;
+}
+.submit-button{
+
+  display: block;
+  width: 458px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 54px;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 14px;
+  color: white;
+  background-color: #81b3d2;
 }
 
-
 /*подвал*/
+
 footer .container{
-  outline: 1px solid black;
+
   width: 1200px;
   min-height: 120px;
   margin-left: auto;
   margin-right: auto;
+  background-color: white;
 
 }
 .slogan{
   display: inline-block;
   margin-left: 130px;
   margin-top: 52px;
-  outline: 1px solid black;
+
+  font-weight: bold;
 }
 .social{
   margin-left: 257px;
   vertical-align: middle;
-  outline: 1px solid black;
+
   text-align: center;
 }
 .social ul{
@@ -414,7 +528,7 @@ footer .container{
 }
 .copyright{
   width: 210px;
-  outline: 1px solid black;
+
   margin-left: 230px;
   vertical-align: middle;
 
@@ -426,16 +540,20 @@ footer .container{
   vertical-align: middle;
   font-size: 14px;
   width: 90px;
-  outline: 1px solid black;
+
 
 }
 .copyright a{
   display: inline-block;
   vertical-align: middle;
   width: 115px;
-  outline: 1px solid black;
 }
-
+.social-button img{
+  margin-top: 15px;
+}
+.social-button:nth-child(2) img{
+  margin-top: 12px;
+}
 
 
 /*стили catalog*/

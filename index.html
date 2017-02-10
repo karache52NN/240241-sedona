@@ -162,20 +162,55 @@
       </div>
       <!--подбор гостиниц-->
       <div class="hostle">
-        <h2>Заинтересовались?</h2>
-        <p>
-          укажите предполагаемые даты поездки,
-        </p>
-        <p>
-          и мы покажем вам лучшие предложения гостиниц в седоне
-        </p>
-        <div class="map-container">
-          <img src="img/MapImg.png" alt="карта" class="map">
+        <div class="hostle-intro">
+          <h2>Заинтересовались?</h2>
+          <p>
+            укажите предполагаемые даты поездки,
+          </p>
+          <p>
+            и мы покажем вам лучшие предложения гостиниц в седоне
+          </p>
         </div>
-        <form class="hostle-search-form" action="#" method="post">
-          <div class="form-header">Поиск гостиницы в седоне</div>
-          <!--не знаю пока как сделать-->
-        </form>
+          <div class="map-container">
+            <img src="img/MapImg.png" alt="карта" class="map">
+          </div>
+          <form class="hostle-search-form" action="#" method="post">
+            <div class="form-header">
+              Поиск гостиницы в седоне
+            </div>
+            <!--не знаю пока как сделать-->
+            <label for="travel-in-date" class="in-date-label">
+              <p>дата заезда:</p>
+            <input type="text" id="travel-in-date" class="in-date" name="in-date" value=" 17 апреля 2017г">
+            </label>
+            <label for="travel-in-date" class="in-date-label">
+              <p>дата выезда:</p>
+            <input type="text" id="travel-in-date" class="in-date" name="in-date" value=" 4 июля 2017г">
+            </label>
+            <div class="counters">
+            <label for="counter" class="count-label">
+              <p>взрослые:</p>
+              <a class="minus">
+                <img src="img/minus.png" alt="-">
+              </a>
+              <input type="number" name="counter-adult" value="2" class="count" id="counter">
+              <a class="plus">
+                <img src="img/plus.png" alt="+">
+              </a>
+            </label>
+            <label for="counter" class="count-label">
+              <p>дети:</p>
+              <a class="minus">
+                <img src="img/minus.png" alt="-">
+              </a>
+              <input type="number" name="counter-adult" value="0" class="count" id="counter">
+              <a class="plus">
+                <img src="img/plus.png" alt="+">
+              </a>
+            </label>
+            </div>
+            <a href="#" class="submit-button">найдти</a>
+          </form>
 
       </div>
     </div>
@@ -203,9 +238,15 @@
         </div>
       -->
       <div class="social">
-        <a href="#" class="social-button twitter"></a>
-        <a href="#" class="social-button facebook"></a>
-        <a href="#" class="social-button youtube"></a>
+        <a href="#" class="social-button twitter">
+          <img src="img/TwtterImg.png" alt="t">
+        </a>
+        <a href="#" class="social-button facebook">
+          <img src="img/facebook.png" alt="t">
+        </a>
+        <a href="#" class="social-button youtube">
+          <img src="img/YoutubeImg.png" alt="t">
+        </a>
 
       </div>
         <!--разработчики-->
