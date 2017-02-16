@@ -3,6 +3,7 @@
 <head>
   <meta charset="utf-8">
   <link rel="stylesheet" href="css/style.css">
+  <link href="https://fonts.googleapis.com/css?family=PT+Sans:400,700&amp;subset=latin,cyrillic" rel="stylesheet" type="text/css">
   <title>HTML Academy: Седона каталог</title>
 </head>
 <body>
@@ -47,43 +48,58 @@
       <label class="infrastructure-head">
         Инфраструктура:
       </label>
-      <label for="hotelsearchcheckbox">
-        <input type="checkbox" name="basin" value="basin" class="hotel-search-checkbox" id="hotelsearchcheckbox">
+      <label for="hotelsearchcheckbox1">
+        <input type="checkbox" name="basin" value="basin" class="hotel-search-checkbox" id="hotelsearchcheckbox1">
         бассейн
+        <span class="checkbox-indicator active"></span>
       </label>
-      <label for="hotelsearchcheckbox">
-        <input type="checkbox" name="parking" value="parking" class="hotel-search-checkbox" id="hotelsearchcheckbox">
+      <label for="hotelsearchcheckbox2">
+        <input type="checkbox" name="parking" value="parking" class="hotel-search-checkbox" id="hotelsearchcheckbox2">
         парковка
+        <span class="checkbox-indicator"></span>
       </label>
-      <label for="hotelsearchcheckbox">
-        <input type="checkbox" name="wi-fi" value="wi-fi" class="hotel-search-checkbox" id="hotelsearchcheckbox">
+      <label for="hotelsearchcheckbox3">
+        <input type="checkbox" name="wi-fi" value="wi-fi" class="hotel-search-checkbox" id="hotelsearchcheckbox3">
         wi-fi
+        <span class="checkbox-indicator"></span>
       </label>
     </div>
 
     <div class="infrastructure housetype">
       <label class="infrastructure-head">Тип жилья:</label>
-      <label for="hotelsearchcheckbox">
-        <input type="checkbox" name="hotel" value="hotel" class="hotel-search-checkbox" id="hotelsearchcheckbox">
+      <label for="hotelsearchcheckbox4">
+        <input type="checkbox" name="hotel" value="hotel" class="hotel-search-checkbox" id="hotelsearchcheckbox4">
         гостиница
+        <span class="checkbox-indicator second-check active"></span>
       </label>
-      <label for="hotelsearchcheckbox">
-        <input type="checkbox" name="motel" value="motel" class="hotel-search-checkbox" id="hotelsearchcheckbox">
+      <label for="hotelsearchcheckbox5">
+        <input type="checkbox" name="motel" value="motel" class="hotel-search-checkbox" id="hotelsearchcheckbox5">
         мотель
+        <span class="checkbox-indicator second-check active"></span>
       </label>
-      <label for="hotelsearchcheckbox">
-        <input type="checkbox" name="apartaments" value="apartaments" class="hotel-search-checkbox" id="hotelsearchcheckbox">
+      <label for="hotelsearchcheckbox6">
+        <input type="checkbox" name="apartaments" value="apartaments" class="hotel-search-checkbox" id="hotelsearchcheckbox6">
         апартаменты
+        <span class="checkbox-indicator second-check active"></span>
       </label>
     </div>
     <!--не знаю как сверстать-->
     <div class="crawler">
-      <label for="price-crawler">
-      Стоимость в сутки(р):
-      </label>
-      <label>
-      <input type="submit" name="show" value="показать">
-      </label>
+      <div class="filter-range">
+        <div class="filter-range-title">Стоимость в сутки (р):</div>
+        <div class="price-controls">
+          <label class="min-price">от <input type="text" name="min-price" value="0"></label>
+          <label class="max-price">до <input type="text" name="max-price" value="3000"></label>
+        </div>
+        <div class="range-controls">
+          <div class="scale">
+            <div class="bar"></div>
+          </div>
+          <div class="range-toggle range-toggle-min"></div>
+          <div class="range-toggle range-toggle-max"></div>
+        </div>
+        <button class="btn-transparent" type="submit">Показать</button>
+      </div>
     </div>
     </form>
   </div>
